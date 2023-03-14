@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Backgrounds</title>
+
+        <style>
+            body{
+                text-align: center;
+                margin-bottom: 200px;
+            }
+            #bg-color{
+                box-shadow: 0 0 10px black;
+                padding: 20px;
+                background-color: red;
+            }
+
+
+            #bg-image{
+                box-shadow: 0 0 10px black;
+                padding: 20px;
+                background-image: url(../img/scenary.jpg);
+                width: 500px;
+                height: 300px;
+            }
+
+            #bg-attachment{
+                box-shadow: 0 0 10px black;
+                padding: 20px;
+                background-image: url(../img/scenary.jpg);
+                height: 150px;
+                /* background-attachment: scroll; */
+                background-attachment: fixed;
+           }
+
+            #bg-repeat{
+                box-shadow: 0 0 10px black;
+                padding: 20px;
+                background-image: url(../img/react-icon.png);
+                width: 850px;
+                height: 600px;
+                background-repeat: no-repeat;
+                /* background-repeat: repeat-x; */
+                /* background-repeat: repeat-y; */
+            }
+
+            #bg-position{
+                box-shadow: 0 0 10px black;
+                padding: 20px;
+                background-image: url(../img/react-icon.png);
+                width: 500px;
+                height: 400px;
+                background-repeat: no-repeat;
+                background-position: top right;
+                /* background-position: top left;
+                background-position: bottom right;
+                background-position: bottom left;
+                background-position: left;
+                background-position: right;
+                background-position: top;
+                background-position: bottom;
+                background-position: center; */
+            }
+
+            #background{
+                box-shadow: 0 0 10px black;
+                height: 400px;
+                padding: 20px;
+                background: chartreuse url(../img/scenary.jpg) no-repeat fixed center;
+            }
+
+            #bg-size{
+                box-shadow: 0 0 10px black;
+                padding: 20px;
+                background-image: url(../img/scenary.jpg);
+                width: 600px;
+                height: 400px;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            #bg-radial-gradient{
+                box-shadow: 0 0 10px black;
+                padding: 20px;
+                background: radial-gradient(red,black);
+                width: 600px;
+                height: 400px;
+            }
+
+            #bg-linear-gradient{
+                box-shadow: 0 0 10px black;
+                padding: 20px;
+                background: linear-gradient(45deg,black,red,black);
+                width: 400px;
+                height: 400px;
+            }
+
+        </style>
+
+
+</head>
+
+<body>
+    <h2>Background Color</h2>
+
+    <div id="bg-color">
+        <h3>I am in background-color:red</h3>
+    </div>
+
+    <h2>Background Image</h2>
+
+    <div id="bg-image">
+        <h3>I am in background-image</h3>
+    </div>
+
+    <h2>Background Attachment</h2>
+
+    <div id="bg-attachment">
+        <h3>I am in background-attachment</h3>
+    </div>
+
+    <h2>Background Repeat</h2>
+    <div id="bg-repeat">
+
+    </div>
+
+    <h2>Background Position</h2>
+    <div id="bg-position">
+
+    </div>
+
+    <h2>Background Shortcut</h2>
+    <div id="background">
+        <h3>I am in Background Shortcut</h3>
+    </div>
+
+    <h2>Background Size</h2>
+    <div id="bg-size">
+        <h3>I fixed this image's size</h3>
+    </div>
+
+    <h2>Background Radial Gradient</h2>
+    <div id="bg-radial-gradient">
+        
+    </div>
+
+    <h2>Background Linear Gradient</h2>
+    <div id="bg-linear-gradient">
+        
+    </div>
+</body>
+</html>

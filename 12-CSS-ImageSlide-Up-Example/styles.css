@@ -1,0 +1,30 @@
+.main-container{
+    box-shadow: 0 5px 10px black;
+    width: 500px;
+    height: 300px;
+    margin: 80px auto;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.main-container img{
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.main-container .container{
+    background-color: violet;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+    transform: translateY(100%);
+    transition: all 0.5s;
+}
+.main-container:hover .container{
+    transform: translateY(0%);
+}
+.main-container:hover img{
+    transform: translateY(-50%);
+}

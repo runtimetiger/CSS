@@ -1,0 +1,61 @@
+
+li{
+    margin: 10px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+ol{
+    background-color: green;
+}
+
+
+ol li:nth-child(even){
+    background-color: red;
+}
+
+ol li:nth-child(odd){
+    background-color: yellow;
+}
+
+ol li:hover{
+    background-color: limegreen;
+    margin: 15px;
+    padding: 15px;
+    font-size: 30px;
+    transition: 0.2s;
+}
+
+ul{
+    background-color: black;
+    color: cornsilk;
+}
+
+ul li{
+    background-color: lightgreen;
+}
+
+ul li:first-child{
+    background-color: cyan;
+}
+
+ul li:nth-child(2){
+    background-color: chartreuse;
+}
+
+ul li:nth-child(3){
+    background-color: cyan;
+}
+
+ul li:last-child{
+    background-color: chartreuse;
+}
+
+ul li:hover{
+    background-color: green;
+    margin: 15px;
+    padding: 15px;
+    font-size: 30px;
+    transition: 0.2s;
+
+}

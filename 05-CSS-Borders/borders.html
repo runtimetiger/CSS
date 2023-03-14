@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Borders</title>
+
+    <style>
+        body{
+            margin-bottom: 200px;
+        }
+        div{
+            box-shadow: 0 0 10px black;
+            width: 300px;
+            height: 150px;
+        }
+        #border-all{
+            border: 10px dotted red;
+        }
+        #border-sides{
+            border-left: 10px dotted red;
+            border-top: 20px solid yellow;
+            border-right: 10px dashed orchid;
+            border-bottom: 20px double orange;
+        }
+        #border-radius-all{
+            border: 10px solid red; 
+            /* border-radius: 40%; */
+            border-radius: 40px;
+        }
+        #border-radius-individual{
+            border: 10px solid springgreen;
+            border-radius: 40px 0 40px 0; /* Top-Left Top-Right Bottom-Right Bottom-Left*/
+        }
+        #circle{
+            width: 300px;
+            height: 300px;
+            box-shadow: 0 0 10px black;
+            border-radius: 50%;
+        }
+        #oval{
+            width: 300px;
+            height: 100px;
+            box-shadow: 0 0 10px black;
+            border-radius: 50%;
+        }
+        #circle-ring{
+            width: 300px;
+            height: 300px;
+            box-shadow: 0 0 10px black;
+            border-radius: 50%;
+            border: 10px solid red;
+        }
+        #circle-ring-individual{
+            width: 300px;
+            height: 300px;
+            box-shadow: 0 0 10px black;
+            border-radius: 50%;
+            border-left: 40px solid red;
+            border-top: 10px solid yellow;
+            border-right: 40px solid red;;
+            border-bottom: 10px solid yellow;
+        }
+        #frame{
+            width: 300px;
+            height: 300px;
+            box-shadow: 0 0 10px black;
+            border: 10px solid red;
+        }
+        #frame-individual{
+            width: 400px;
+            height: 300px;
+            box-shadow: 0 0 10px black;
+            border-left: 20px solid red;
+            border-top: 10px solid yellow;
+            border-right: 20px solid red;;
+            border-bottom: 10px solid yellow;
+        }
+        #frame-video{
+            width: 550px;
+            height: 300px;
+            box-shadow: 0 0 10px black;
+            border-left: 20px solid red;
+            border-top: 10px solid yellow;
+            border-right: 20px solid red;;
+            border-bottom: 10px solid yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Border All</h2>
+    <div id="border-all">
+
+    </div>
+
+    <h2>Border Individual Sides</h2>
+    <div id="border-sides">
+
+    </div>
+
+    <h2>Border Radius All</h2>
+    <div id="border-radius-all">
+
+    </div>
+
+    <h2>Border Radius Individual</h2>
+    <div id="border-radius-individual">
+
+    </div>
+
+    <h2>Circle</h2>
+    <section id="circle">
+
+    </section>
+
+    <h2>Oval</h2>
+    <section id="oval">
+
+    </section>
+
+    <h2>Circle Ring</h2>
+    <section id="circle-ring">
+
+    </section>
+
+    <h2>Circle Ring Individual</h2>
+    <section id="circle-ring-individual">
+
+    </section>
+
+
+    <h2>Frame</h2>
+    <div id="frame">
+
+    </div>
+
+    <h2>Frame Individual Sides</h2>
+    <div id="frame-individual">
+
+    </div>
+
+    <h2>Frame</h2>
+    <div id="frame-video">
+        <iframe width="550" height="300" src="https://www.youtube-nocookie.com/embed/sZz4w88hzoE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    
+</body>
+</html>

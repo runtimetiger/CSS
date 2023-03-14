@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-Positions</title>
+
+    <style>
+        body{
+            height:1500px; /*Not a good practice. Doing only for demontration purpose*/
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            box-shadow: 0 0 10px black;
+        }
+        .box1{
+            background-color: red;
+            position: static;
+            left: 200px;
+            top: 200px;
+        }
+        .box2{
+            background-color: yellow;
+            position: relative;
+            left: 350px;
+            top: 0px;
+            z-index: 3;
+        }
+        .box-container{
+            width: 500px;
+            height: 400px;
+            box-shadow: 0 0 10px black;
+            background-color: turquoise;
+            position: absolute;
+            left: 400px;
+            top: 200px;
+            z-index: 2;
+            opacity: 0.9;
+        }
+        .box3{
+            background-color: lime;
+            position: absolute;
+            bottom: 0;
+            left:0;
+        }
+        .box4{
+            background-color: orange;
+            position: absolute;
+            right:0;
+            top:0;
+        }
+        .box5{
+            background-color: violet;
+            position: fixed;
+            right:400px;
+            top:200px;
+            z-index: 1;
+        }
+        .box6{
+            background-color: deepskyblue;
+            top:0;
+            right: 100px;
+            position: sticky;
+            
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box box1">
+        <h3>static</h3>
+    </div>
+
+    <div class="box box2">
+        <h3>relative</h3>
+    </div>
+
+   <div class="box-container">
+        <div class="box box3">
+            <h3> relative 1 to parent (i.e absolute)</h3>
+        </div>
+        <div class="box box4">
+            <h3> relative 2 to parent (i.e absolute)</h3>
+        </div>
+        <h3>absolute</h3>
+   </div>
+
+    <div class="box box5">
+        <h3>Fixed</h3>
+    </div>
+
+    <div class="box box6">
+        <h3>Sticky</h3>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, esse non dolor nobis architecto velit suscipit temporibus porro laborum, voluptates sunt omnis asperiores animi neque ullam corrupti amet error ipsum expedita! Ipsum accusamus, vero beatae autem consectetur fugiat error distinctio dolores et? Obcaecati ipsam soluta corporis, laboriosam, provident atque molestias, odio laudantium explicabo doloremque architecto eum officia excepturi alias modi aliquid quia voluptate inventore. Odit expedita corporis doloribus soluta ex in laborum, dolorum nisi id impedit voluptas consequuntur fugit temporibus incidunt. Eos optio sunt, voluptatem doloribus quia cumque. Quidem ipsam repellat eum quae maxime, sapiente aut aperiam nemo voluptate blanditiis eos deserunt, delectus harum animi in. Quis iure consectetur excepturi quae dicta, officia cum aut. Magni consequatur fugiat sapiente quis, dolores unde necessitatibus temporibus voluptatibus minus adipisci laborum repellat commodi quibusdam corporis facilis animi ipsam dolorem repudiandae omnis nesciunt quaerat accusantium? Sequi eaque, molestiae nobis illum laborum nulla blanditiis. Et molestiae sint nulla nobis accusantium quis dolor tempore alias similique consectetur facere, quasi fuga mollitia qui ea vitae at incidunt ducimus omnis? Dicta culpa fugit tempora nam doloremque distinctio fuga nihil itaque alias impedit modi unde eius corrupti enim, possimus praesentium consequuntur non blanditiis maiores, sed necessitatibus incidunt recusandae. Iusto soluta mollitia ipsum eligendi unde? Architecto error veritatis inventore explicabo ab id doloremque ea neque dolor earum asperiores, libero omnis? Expedita dolores impedit saepe qui sequi eligendi? Vero fugiat earum reprehenderit magni deserunt officia illum tenetur atque natus, ea cupiditate, quo officiis molestiae ullam ab cumque ipsum perferendis molestias accusamus nesciunt quaerat. Eos nisi cum rem dolorum reiciendis. Iure, alias ducimus beatae molestias quasi suscipit consequuntur error quia repellat consectetur debitis natus necessitatibus sunt officia harum facere porro quidem cum et obcaecati veniam dolor quae facilis? Aperiam culpa alias, quas, a dolorum doloremque accusantium dicta laboriosam mollitia aliquam enim quis, quidem praesentium suscipit vitae error! Quis amet impedit magnam, totam provident ratione illum corporis, sed cum, exercitationem dolores voluptates. Ab consequatur provident, sequi reprehenderit perferendis nobis sed sint natus iste cupiditate aspernatur architecto. Quia maiores ad soluta nihil maxime dicta magnam impedit. Adipisci assumenda commodi, accusamus ad, officiis asperiores iure tempore et temporibus eos odio ut pariatur sequi delectus laborum, eaque aut consequuntur. Ea eos velit eligendi totam labore nemo repellat animi obcaecati enim quas nihil, numquam fuga quia rerum voluptate dolor voluptatem voluptatum eveniet dolorum perferendis ullam ducimus dolore. Id veritatis iusto pariatur optio facilis libero nam accusantium, quasi et voluptates voluptatum eum enim fugiat eligendi harum quaerat suscipit reiciendis. Commodi esse harum minus nulla aperiam, cumque reprehenderit qui magnam amet? Omnis minus tenetur, commodi ex non repellat perspiciatis sapiente cupiditate eaque maxime corrupti nulla, ullam expedita eligendi laborum quas, sint error adipisci hic veniam! Error dolor et perferendis porro earum, sit amet soluta quam libero dolorem adipisci eligendi totam corrupti recusandae quae facilis eaque laborum reprehenderit? Vero quod dolores eaque ab! Ipsam delectus distinctio reprehenderit suscipit odit numquam omnis cupiditate? Maxime quis reprehenderit doloribus est deleniti natus eveniet excepturi dolore culpa, ducimus facilis quisquam earum sit aspernatur quos.</p>
+    
+</body>
+</html>

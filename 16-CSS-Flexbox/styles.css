@@ -1,0 +1,21 @@
+.container{
+    background-color: aqua;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    align-items: flex-start; /* main axis */
+    justify-content: flex-end; /* cross axis */
+    justify-content: space-evenly;
+}
+
+.container h1{
+    background: linear-gradient(45deg,blueviolet,deeppink);
+    color: white;
+    padding: 30px;
+    margin: 10px;
+    flex: 1;
+
+}

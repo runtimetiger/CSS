@@ -1,0 +1,25 @@
+input[type="text"]{
+    background-color: chartreuse;
+}
+input[type="password"]{
+    background-color: aqua;
+}
+input[type="submit"]{
+    background-color: brown;
+}
+
+input[type="text"]:focus{
+    background-color: rgb(54, 97, 10);
+    font-size: 30px;
+    transition: 0.3s;
+}
+input[type="password"]:focus{
+    background-color: rgb(13, 119, 119);
+    font-size: 30px;
+    transition: 0.3s;
+}
+input[type="submit"]:hover{
+    background-color: rgb(216, 23, 23);
+    font-size: 30px;
+    transition: 0.3s;
+}

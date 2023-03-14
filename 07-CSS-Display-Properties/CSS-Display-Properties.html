@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display Properties</title>
+
+    <style>
+        div{
+            margin: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        h1{
+            background-color: deepskyblue;
+            padding:10px;
+            margin: 10px;
+            display: inline;
+        }
+        a{
+            background-color: fuchsia;
+            padding:10px;
+            margin: 10px;
+            display: block;
+        }
+        span{
+            background-color: greenyellow;
+            padding: 10px;
+            margin: 10px;
+            display: block;
+        }
+        h3{
+            background-color: yellow;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            display: none;
+        }
+        .parent{
+            background-color: aquamarine;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 0 10px black;
+            border-radius: 20px;
+        }
+        .child{
+            background-color: sandybrown;
+            padding: 10px;
+            margin: 10px;
+            width: 260px;
+            height: 230px;
+            display: inline-block;
+            box-shadow: 0 0 10px black;
+            border-radius: 30px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Inline display -->
+    <div>
+        <h1>Good Morning</h1>
+        <h1>Good Afternoon</h1>
+        <h1>Good Evening</h1>
+    </div>    
+
+    <!-- Block display -->
+    <div>
+        <a href="#">Home</a>
+        <a href="#">Courses</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <!-- Block display -->
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <span> 1. Nihil quae iste tempora magni odit velit debitis impedit eum sunt quia,</span>
+            <span> 2. dolorem explicabo laudantium quos vel praesentium iure est enim! Distinctio </span>
+            <span> 3. eligendi reprehenderit, ad minus nisi voluptas earum alias perferendis facilis! </span>
+                Atque aperiam nihil sint dolorem quo repudiandae nam unde autem.</p>
+    </div>
+
+    <!-- Display none / hide -->
+    <div>
+        <h3>Hello. I am Hidden</h3>
+    </div>
+
+    <!-- inline block display-->
+    <div class="parent">
+        <div class="child">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio voluptate unde nobis maiores nemo dolorum. Maxime architecto aliquam maiores consectetur, quae incidunt quo eaque blanditiis, consequuntur dolore, numquam nobis laborum illo doloremque optio culpa laboriosam eligendi nesciunt quis dolorum modi!</p>
+        </div>
+
+        <div class="child">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio voluptate unde nobis maiores nemo dolorum. Maxime architecto aliquam maiores consectetur, quae incidunt quo eaque blanditiis, consequuntur dolore, numquam nobis laborum illo doloremque optio culpa laboriosam eligendi nesciunt quis dolorum modi!</p>
+        </div>
+
+        <div class="child">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio voluptate unde nobis maiores nemo dolorum. Maxime architecto aliquam maiores consectetur, quae incidunt quo eaque blanditiis, consequuntur dolore, numquam nobis laborum illo doloremque optio culpa laboriosam eligendi nesciunt quis dolorum modi!</p>
+        </div>
+
+        <div class="child">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio voluptate unde nobis maiores nemo dolorum. Maxime architecto aliquam maiores consectetur, quae incidunt quo eaque blanditiis, consequuntur dolore, numquam nobis laborum illo doloremque optio culpa laboriosam eligendi nesciunt quis dolorum modi!</p>
+        </div>
+
+
+    </div>
+
+
+</body>
+</html>
